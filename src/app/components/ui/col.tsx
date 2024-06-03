@@ -3,7 +3,7 @@ import type { CSSProperties, PropsWithChildren } from "react";
 const componentStyle: CSSProperties = {
     display: 'flex', 
     flexDirection: 'column'
-  }
+}
 // JSX
 const Col = (props: PropsWithChildren) => {
   return (

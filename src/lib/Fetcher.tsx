@@ -1,7 +1,7 @@
 
 function Fetcher() {
   return (
-    <div>Fetcher</div>
+    <div>Pretend this is a Fetch call [Use your imagination]</div>
   )
 }
 

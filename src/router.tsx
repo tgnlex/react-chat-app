@@ -6,6 +6,7 @@ import {Register} from './app/Register';
 const router = createBrowserRouter([
   { path: "/", element: <Home />, },
   { path: '/chat', element: <Chat />},
+  { path: "/profile", element: <Home />, },
   { path: "/register", element: <Register />},
 ]);
 

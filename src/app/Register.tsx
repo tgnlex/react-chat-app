@@ -5,16 +5,17 @@ function Register() {
     <main>
       <h1>Register</h1>
       <form>
-        <label htmlFor=""></label>
+        <label htmlFor="">Nickname</label>
         <input name='nick' id="nickname" type="text" />
-        <label htmlFor=""></label>
+        <label htmlFor="">Email</label>
         <input name='email' id='email'   type="email" />
-        <label htmlFor=""></label>
-        <input name='age' id='age' type='number'/>
-        <label htmlFor=""></label>
+        <label htmlFor="">Password</label>
         <input name='pass1' id="password" type="password" />
-        <label htmlFor=""></label>
+        <label htmlFor="">Confirm Password</label>
         <input name='pass2' id='password2' type="password" />
+        <label htmlFor="">Age</label>
+        <input name='age' id='age' type='number'/>
+        <input type='submit' />
       </form>
     </main>
     </Layout>

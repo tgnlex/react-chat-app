@@ -2,9 +2,9 @@ import { Layout } from './components/Layout';
 function Profile() {
   return (
     <Layout>
-      <main>
+      <div>
         <h1>Profile</h1>
-      </main>
+      </div>
     </Layout>
   )
 }

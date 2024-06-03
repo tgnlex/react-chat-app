@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import type {Route} from '../../routes.ts'
+import type {Route} from '../../../routes.ts'
 type Props = {
   routes: Route[]
 }

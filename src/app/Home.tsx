@@ -4,11 +4,11 @@ import { Layout } from './components/Layout';
 function Home() {
   return (
     <Layout>
-      <main>
+      <div>
         <h1>Welcome</h1>
         <p>First time ?</p>
         <Link to='/register'>Click here to signup!</Link>
-      </main>
+      </div>
     </Layout>
   
   )

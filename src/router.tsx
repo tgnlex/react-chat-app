@@ -1,9 +1,12 @@
 import {createBrowserRouter} from "react-router-dom";
-import {Main} from './app/Main.tsx';
+import {Home} from './app/Home';
+import {Chat} from './app/Chat';
+import {Register} from './app/Register';
 
 const router = createBrowserRouter([
-  { path: "/", element: <Main />, },
+  { path: "/", element: <Home />, },
+  { path: '/chat', element: <Chat />},
+  { path: "/register", element: <Register />},
 ]);
-
 
 export {router};

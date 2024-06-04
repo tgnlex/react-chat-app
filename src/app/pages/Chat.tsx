@@ -1,16 +1,13 @@
 import { Layout } from "../Layout";
 import { MessageForm } from "../components/chat/Form";
-import {Messages} from '../components/chat/Messages';
-// Dummy messages to use until server is set up
+import {ChatWindow} from '../components/chat/Window';
 
 
 const Chat = () => {
   return (
     <Layout>
       <div id='chat'>
-        <div id="chat-window">
-          <Messages />
-        </div>
+       <ChatWindow />
        <MessageForm />
       </div>
     </Layout>

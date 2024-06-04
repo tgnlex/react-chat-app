@@ -1,6 +1,7 @@
+import {MessageContent} from './msgTypes';
 type Item = {
   id: number, 
-  content: string 
+  content: MessageContent,
 }
 type MapProps = {
   items: Item[] 

@@ -1,6 +1,6 @@
-import { Layout } from "./components/Layout";
-import { MessageForm } from "./components/chat/Form";
-import {Messages} from './components/chat/Messages';
+import { Layout } from "../Layout";
+import { MessageForm } from "../components/chat/Form";
+import {Messages} from '../components/chat/Messages';
 // Dummy messages to use until server is set up
 
 

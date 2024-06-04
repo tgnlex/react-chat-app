@@ -1,7 +1,7 @@
 import {createBrowserRouter} from "react-router-dom";
-import {Home} from './app/Home';
-import {Chat} from './app/Chat';
-import {Register} from './app/Register';
+import {Home} from './app/pages/Home';
+import {Chat} from './app/pages/Chat';
+import {Register} from './app/pages/Register';
 
 const router = createBrowserRouter([
   { path: "/", element: <Home />, },

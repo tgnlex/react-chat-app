@@ -1,8 +1,8 @@
 import type {PropsWithChildren } from "react";
-import {Sidebar} from './components/layout/Sidebar.tsx';
-import { Row } from "./components/ui/Row.tsx";
-import {routes} from '../routes.ts';
-import { Header } from "./components/layout/Header.tsx";
+import {Sidebar} from './layout/Sidebar.tsx';
+import { Row } from "./ui/Row.tsx";
+import {routes} from '../../routes.ts';
+import { Header } from "./layout/Header.tsx";
 const Layout = (props: PropsWithChildren) => {
   return (
     <>

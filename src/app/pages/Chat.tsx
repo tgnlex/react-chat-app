@@ -1,4 +1,4 @@
-import { Layout } from "../Layout";
+import { Layout } from "../components/Layout";
 import { MessageForm } from "../components/chat/Form";
 import {ChatWindow} from '../components/chat/Window';
 
